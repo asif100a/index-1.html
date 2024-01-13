@@ -1,0 +1,37 @@
+/* work sans font from google fonts */
+@import url('https://fonts.googleapis.com/css?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif, 'Open Sans', 'Work Sans', sans-serif;
+}
+
+/* Starting The Header */
+header{
+    background-color: mistyrose;
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-h1{
+    font-size: 2.2em;
+    color: #0a0a0a;
+}
+nav > ul{
+    display: flex;
+}
+nav > ul> li{
+    list-style: none;
+    margin-right: 32px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+.brand-div{
+    text-align: center;
+}
